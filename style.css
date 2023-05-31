@@ -1,0 +1,98 @@
+/* ################### */
+/* DEBUT CODE ORIGINEL */
+/* ################### */
+
+#mainbox {
+  font-family: calibri;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid purple;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+}
+
+img {
+  border-radius: 50%;
+  width: 70px;
+  margin: 10px;
+}
+
+h1 {
+  font-weight: lighter;
+  margin-left: 100px;
+  margin-top: -30px;
+}
+
+p {
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+}
+
+.header img {
+  width: 200px;
+}
+
+.footer {
+  background-color: #ffffff;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer img {
+  width: 100px;
+}
+
+.header span,
+.footer span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover img {
+  transform: scale(1.1);
+}
+
+
+/* ################# */
+/* FIN CODE ORIGINEL */
+/* ################# */
+
+/* Time to shine */
+
+/* ################### */
+/* DEBUT CODE Alexandre */
+/* ################### */
+
+/* ################# */
+/* FIN CODE Alexandre */
+/* ################# */
