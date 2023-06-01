@@ -2,7 +2,7 @@
 
 ## Objectif de l'exercice : 
 
-le but de cet exercice est d'avoir un fichier HTML qui contient une petite carte avec la photo de chaque apprenant
+Le but de cet exercice est d'avoir un fichier HTML qui contient une petite carte avec la photo de chaque apprenant
 Vous disposerez tous du même point de départ et devrez arriver à la fin à un fichier HTML qui contient les modifications de tous les apprenants sur votre ordinateur 
 
 ## Déroulé de l'exercice :
