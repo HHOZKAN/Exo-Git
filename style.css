@@ -160,6 +160,51 @@ p {
 /* DEBUT CODE SYLVAIN */
 /* ################### */
 
+@font-face {
+	font-family: "AquilineTwo";
+	src: url("assets/fonts/AquilineTwo.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Astonished";
+	src: url("assets/fonts/ASTONISHED.TTF") format("truetype");
+}
+
+#sylvain h2 {
+  font-family: 'Astonished', sans-serif;
+  font-size: 40px;
+  padding-left: 7px;
+  margin-top: -12px;
+  margin-bottom: 0px;
+}
+
+#sylvain p {
+	font-family: 'AquilineTwo', sans-serif;
+  font-size: 18px;
+}
+
+.text--sylvain {
+  width: 50%;
+}
+
+#sylvain {
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  background-image: url("assets/background--s.jpeg");
+  background-size: cover;
+  padding: 10px;
+}
+.avatar--sylvain img {
+  object-fit: cover;
+  border: 1px solid gray;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar--sylvain:hover img {
+  transform: scale(1.2);
+}
+
+
 /* ################# */
 /* FIN CODE SYLVAIN */
 /* ################# */
