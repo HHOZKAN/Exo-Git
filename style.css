@@ -180,9 +180,21 @@ p {
 /* DEBUT CODE JEROME */
 /* ################### */
 
-/* ################# */
-/* FIN CODE JEROME */
-/* ################# */
+#jerome{
+ min-width:350px;
+  min-height:270px;
+  border:1px solid lightgray;
+  border-top:10px solid grey;
+  box-shadow:0.5px 0.5px 3px grey;
+  font-family:Helvetica, sans-serif;
+}
+#jerome h2{
+  margin-left:10px;
+}
+#jerome p{
+  margin-left:25px;
+}
+
 
 /* ################### */
 /* DEBUT CODE OLGA */
