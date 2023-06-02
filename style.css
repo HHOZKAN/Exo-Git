@@ -137,8 +137,13 @@ p {
 /* ################### */
 
 #jerome{
+  width:350px;
+  min-height:250px;
+  min-width:250px;
   border:1px solid lightgray;
+  border-top:10px solid grey;
 }
+
 
 /* ################### */
 /* DEBUT CODE OLGA */
