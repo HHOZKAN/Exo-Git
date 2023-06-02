@@ -185,6 +185,38 @@ p {
 /* DEBUT CODE JEREMY */
 /* ################### */
 
+#jd-card{
+    color: #f3e8ff;
+    background: linear-gradient(0deg, #a855f7, #7e22ce);
+    border: 1px solid #7e22ce;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #171717;
+    padding: 20px;
+    transition: 300ms;
+}
+
+#jd-card img{
+    filter: grayscale(100%);
+}
+
+#jd-card > h2{
+    text-transform: uppercase;
+}
+
+#jd-card > p{
+    font-size: 1.15em;
+    font-style: italic;
+}
+
+#jd-card:hover img{
+    filter: grayscale(0);
+}
+
+#jd-card:hover{
+    border-color: #a855f7;
+    box-shadow: unset;
+}
+
 /* ################# */
 /* FIN CODE JEREMY */
 /* ################# */
