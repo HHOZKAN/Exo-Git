@@ -187,7 +187,11 @@ p {
 /* ################### */
 /* DEBUT CODE OLGA */
 /* ################### */
-
+#olga {
+  border: 10px solid rgb(183, 14, 177);
+  box-shadow: 1px 1px 1px orchid;
+  padding: 10px;
+}
 /* ################# */
 /* FIN CODE OLGA */
 /* ################# */
