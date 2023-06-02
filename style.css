@@ -104,6 +104,50 @@ p {
 /* DEBUT CODE VINCENT */
 /* ################### */
 
+.cardVF {
+  border-radius: 10px;
+  background-image: url(https://www.japanfm.fr/wp-content/uploads/2022/09/naruto-scaled.webp);
+  background-size: cover;
+  width: 350px;
+  min-height: 250px;
+  max-height: 250px;
+  margin: 20px;  
+  margin-top: 50px;
+}
+
+.cardVF:hover {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMLcFw1gi2qqbDfmrRTjPBHOMxIpRf1ffMVQ&usqp=CAU);
+}
+
+.textVF {
+  display: block;
+  min-height: 250px;
+}
+
+.cardVF:hover .textVF {
+  display: none;
+}
+
+.h2VF {
+  text-shadow: 0px 0px 2px black,0px 0px 4px black,0px 0px 6px black;
+  color: white;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+
+.jutsu {
+  color: white;
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+
+
 /* ################# */
 /* FIN CODE VINCENT */
 /* ################# */
@@ -136,14 +180,30 @@ p {
 /* DEBUT CODE JEROME */
 /* ################### */
 
-/* ################# */
-/* FIN CODE JEROME */
-/* ################# */
+#jerome{
+ min-width:350px;
+  min-height:270px;
+  border:1px solid lightgray;
+  border-top:10px solid grey;
+  box-shadow:0.5px 0.5px 3px grey;
+  font-family:Helvetica, sans-serif;
+}
+#jerome h2{
+  margin-left:10px;
+}
+#jerome p{
+  margin-left:25px;
+}
+
 
 /* ################### */
 /* DEBUT CODE OLGA */
 /* ################### */
-
+#olga {
+  border: 10px solid rgb(183, 14, 177);
+  box-shadow: 1px 1px 1px orchid;
+  padding: 10px;
+}
 /* ################# */
 /* FIN CODE OLGA */
 /* ################# */
@@ -159,6 +219,65 @@ p {
 /* ################### */
 /* DEBUT CODE SYLVAIN */
 /* ################### */
+
+@font-face {
+	font-family: "AquilineTwo";
+	src: url("assets/fonts/AquilineTwo.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Astonished";
+	src: url("assets/fonts/ASTONISHED.TTF") format("truetype");
+}
+
+@keyframes avatar-animation {
+  0% {
+    transform: translateX(0px) rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: translateX(200px) rotate(360deg) scale(1.2);
+  }
+}
+
+#sylvain h2 {
+  font-family: 'Astonished', sans-serif;
+  font-size: 40px;
+  padding-left: 7px;
+  margin-top: -12px;
+  margin-bottom: 0px;
+}
+
+#sylvain p {
+	font-family: 'AquilineTwo', sans-serif;
+  font-size: 18px;
+}
+
+.text--sylvain {
+  width: 50%;
+  transition: text-shadow 0.8s, color 0.8s;
+}
+
+#sylvain {
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888;
+  background-image: url("assets/background--s.jpeg");
+  background-size: cover;
+  padding: 10px;
+}
+.avatar--sylvain img {
+  object-fit: cover;
+  border: 1px solid gray;
+}
+
+#sylvain:hover img {
+  animation: avatar-animation 2000ms alternate backwards infinite;
+}
+
+#sylvain:hover .text--sylvain {
+  color: rgb(255, 252, 240);
+  text-shadow: rgb(31, 31, 30) 4px 0 6px;
+}
 
 /* ################# */
 /* FIN CODE SYLVAIN */
@@ -185,7 +304,23 @@ p {
 /* ################### */
 /* DEBUT CODE ANTOINE */
 /* ################### */
+#antoine {
+  border: 1px solid rgb(12, 11, 11);
+  box-shadow: 10px 10px 3px pink;
+  border-top: 10px solid pink;
+  padding: 10px;
+  background-image: url(assets/backgroung_isaac.jpg);
+  background-repeat: no-repeat;
+  background-size: 115% 100%;
+}
 
+.p_A {
+  color: whitesmoke;
+  text-shadow: 0 0 3px #ce52da, 0 0 5px #08bbf1;}
+
+.h2_A {
+  color: whitesmoke;
+  text-shadow: 0 0 3px #ce52da, 0 0 5px #08bbf1;}
 /* ################# */
 /* FIN CODE ANTOINE */
 /* ################# */
@@ -194,6 +329,27 @@ p {
 /* DEBUT CODE AMAYAS */
 /* ################### */
 
+#amayas {
+  border: 1px solid rgb(37, 2, 2);
+  box-shadow: 5px 5px 8px #210101;
+  border-top: 15px solid rgb(114, 7, 18);
+  padding: 10px;
+  background-image: url(assets/anti.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Ah2 {
+  text-shadow: 2px 0 #020202, -2px 0 #020202, 0 2px #020202, 0 -2px #020202,
+               1px 1px #020202, -1px -1px #020202, 1px -1px #020202, -1px 1px #020202;
+  color: rgb(252, 252, 252);
+}
+
+.Ap {
+  text-shadow: 2px 0 #020202, -2px 0 #020202, 0 2px #020202, 0 -2px #020202,
+               1px 1px #020202, -1px -1px #020202, 1px -1px #020202, -1px 1px #020202;
+  color: rgb(252, 252, 252);
+}
 /* ################# */
 /* FIN CODE AMAYAS */
 /* ################# */
@@ -201,7 +357,13 @@ p {
 /* ################### */
 /* DEBUT CODE MAXIME */
 /* ################### */
-
+#maxime {
+  border: 3px solid #5F9EA0;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 5%;
+  padding: 10px;
+  background: radial-gradient(rgb(192, 192, 192), white)
+}
 /* ################# */
 /* FIN CODE MAXIME */
 /* ################# */
@@ -216,6 +378,16 @@ p {
 
 /* ################### */
 /* DEBUT CODE AHMED */
+#Ahmed {
+  border: 1px solid rgb(231, 5, 118);
+  box-shadow: 2px 1px 3px #888;
+  border-top: 10px solid rgb(80, 235, 33);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+  
+  
 /* ################### */
 
 /* ################# */
@@ -224,8 +396,13 @@ p {
 
 /* ################### */
 /* DEBUT CODE MUSA */
-/* ################### */
-
-/* ################# */
+#musa{
+  border: 5px double rgb(56, 40, 122);
+  border-radius: 10px;
+  box-shadow: 5px  5px 10px black;
+  padding: 10px;
+  text-align: center;
+  color: rgb(53, 37, 174);
+}
 /* FIN CODE MUSA */
 /* ################# */
