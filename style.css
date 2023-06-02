@@ -194,6 +194,7 @@ p {
 
 .text--sylvain {
   width: 50%;
+  transition: text-shadow 0.8s, color 0.8s;
 }
 
 #sylvain {
@@ -209,8 +210,13 @@ p {
   border: 1px solid gray;
 }
 
-.avatar--sylvain:hover img {
+#sylvain:hover img {
   animation: avatar-animation 2000ms alternate backwards infinite;
+}
+
+#sylvain:hover .text--sylvain {
+  color: rgb(255, 252, 240);
+  text-shadow: rgb(31, 31, 30) 4px 0 6px;
 }
 
 /* ################# */
