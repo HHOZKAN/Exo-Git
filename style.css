@@ -192,6 +192,101 @@ p {
 /* ################### */
 /* DEBUT CODE MAEL */
 /* ################### */
+@font-face{
+  font-family:neon_;
+  src:url("C:/Users/Mael/Documents/TP-Card/Exo-Git/assets/font/NEON.ttf");
+}
+#card_md{
+  border-radius: 3%;
+  border:solid;
+  background-color: black;
+  border-color:white;
+  z-index:1;
+  box-shadow: 0 3px 10px transparent;
+  
+}
+#card_md:hover{
+  box-shadow: 0 0 7px #e817c5, 
+  0 0 10px #e817c5,
+  0 0 42px #e817c5;
+  border-color: #e600e6;
+  background-image: url("C:/Users/Mael/Documents/TP-Card/Exo-Git/assets/mur.jpg");
+  color:#e817c5;
+  text-shadow: 0 0 7px #e817c5, 
+  0 0 10px #e817c5,
+  0 0 42px #e817c5,
+  0 0 77px #e817c5,
+  0 0 100px #e817c5;
+}
+#nom_md{
+  text-align:center;
+  font-size:30px;
+  font-family:neon_;
+  text-shadow: 0 0 2px #fff;
+  color:white;
+  z-index:4;
+  display:flex;
+  flex-direction: column;
+}
+
+#light_off{
+  font-family:neon_;
+  color:white;
+  text-shadow: 0 0 2px #fff;
+  z-index:4;
+  text-align:center;
+}
+#light_on{
+  font-family:neon_;
+  z-index:4;
+  text-align: center;
+  margin-top: 50px;
+  display:none;
+}
+
+#cerise{
+  display:none;
+  width:100px;
+}
+#doigt{
+  display:none;
+  width:50px;
+}
+#card_md:hover #light_off{
+  display:none;
+}
+#card_md:hover #cerise{
+  display:flex;
+}
+#card_md:hover #doigt{
+  display:flex;
+  margin-left: 50px;
+}
+#light_off{
+  margin-top:50px;
+}
+#card_md:hover #light_on{
+  display:block;
+}
+#card_md:hover #nom_md{
+  color:#e817c5;
+  text-shadow: 0 0 7px #e817c5, 
+   0 0 10px #e817c5,
+   0 0 42px #e817c5,
+   0 0 77px #e817c5,
+   0 0 100px #e817c5;
+}
+#card_md:hover #ligne{
+  display: flex;
+  flex-direction: row;
+  margin-left:15px;
+}
+
+p{
+  font-size: 30px;
+}
+
+
 
 /* ################# */
 /* FIN CODE MAEL */
