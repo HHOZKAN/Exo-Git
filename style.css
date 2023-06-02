@@ -191,7 +191,13 @@ p {
 /* ################### */
 /* DEBUT CODE MAXIME */
 /* ################### */
-
+#maxime {
+  border: 3px solid #5F9EA0;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 5%;
+  padding: 10px;
+  background: radial-gradient(rgb(192, 192, 192), white)
+}
 /* ################# */
 /* FIN CODE MAXIME */
 /* ################# */
