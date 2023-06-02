@@ -193,7 +193,9 @@ p {
   display:flex;
   margin-left: 50px;
 }
-
+#light_off{
+  margin-top:50px;
+}
 #card_md:hover #light_on{
   display:block;
 }
@@ -205,6 +207,10 @@ p {
   display: flex;
   flex-direction: row;
   margin-left:15px;
+}
+
+p{
+  font-size: 30px;
 }
 
 
