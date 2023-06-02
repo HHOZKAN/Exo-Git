@@ -220,6 +220,65 @@ p {
 /* DEBUT CODE SYLVAIN */
 /* ################### */
 
+@font-face {
+	font-family: "AquilineTwo";
+	src: url("assets/fonts/AquilineTwo.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Astonished";
+	src: url("assets/fonts/ASTONISHED.TTF") format("truetype");
+}
+
+@keyframes avatar-animation {
+  0% {
+    transform: translateX(0px) rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: translateX(200px) rotate(360deg) scale(1.2);
+  }
+}
+
+#sylvain h2 {
+  font-family: 'Astonished', sans-serif;
+  font-size: 40px;
+  padding-left: 7px;
+  margin-top: -12px;
+  margin-bottom: 0px;
+}
+
+#sylvain p {
+	font-family: 'AquilineTwo', sans-serif;
+  font-size: 18px;
+}
+
+.text--sylvain {
+  width: 50%;
+  transition: text-shadow 0.8s, color 0.8s;
+}
+
+#sylvain {
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888;
+  background-image: url("assets/background--s.jpeg");
+  background-size: cover;
+  padding: 10px;
+}
+.avatar--sylvain img {
+  object-fit: cover;
+  border: 1px solid gray;
+}
+
+#sylvain:hover img {
+  animation: avatar-animation 2000ms alternate backwards infinite;
+}
+
+#sylvain:hover .text--sylvain {
+  color: rgb(255, 252, 240);
+  text-shadow: rgb(31, 31, 30) 4px 0 6px;
+}
+
 /* ################# */
 /* FIN CODE SYLVAIN */
 /* ################# */
