@@ -136,9 +136,9 @@ p {
 /* DEBUT CODE JEROME */
 /* ################### */
 
-/* ################# */
-/* FIN CODE JEROME */
-/* ################# */
+#jerome{
+  border:1px solid lightgray;
+}
 
 /* ################### */
 /* DEBUT CODE OLGA */
