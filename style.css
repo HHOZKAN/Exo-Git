@@ -214,8 +214,13 @@ p {
 
 /* ################### */
 /* DEBUT CODE MUSA */
-/* ################### */
-
-/* ################# */
+#musa{
+  border: 5px double rgb(56, 40, 122);
+  border-radius: 10px;
+  box-shadow: 5px  5px 10px black;
+  padding: 10px;
+  text-align: center;
+  color: rgb(53, 37, 174);
+}
 /* FIN CODE MUSA */
 /* ################# */
