@@ -120,6 +120,16 @@ p {
 /* DEBUT CODE JEREMY */
 /* ################### */
 
+#jd-card{
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#jd-card:hover{
+    border-color: #18181b;
+}
+
 /* ################# */
 /* FIN CODE JEREMY */
 /* ################# */
