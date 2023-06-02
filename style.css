@@ -134,13 +134,17 @@ p {
 #card_md{
   border-radius: 3%;
   border:solid;
-  background-color: #464954;
+  background-color: black;
   border-color:white;
+  z-index:1;
   
 }
 #card_md:hover{
-  box-shadow: 0 3px 10px orange;
-  border-color: #e8aa1a;
+  box-shadow: 0 3px 10px #e817c5;
+  border-color: #e817c5;
+  background-image: url("C:/Users/Mael/Documents/TP-Card/Exo-Git/assets/mur.jpg");
+  color:#e817c5;
+
 }
 #nom_md{
   text-align:center;
@@ -148,13 +152,49 @@ p {
   font-family:neon_;
   text-shadow: 0 0 2px #fff;
   color:white;
+  z-index:4;
 }
 
-#citation_md{
+#light_off{
   font-family:neon_;
   color:white;
   text-shadow: 0 0 2px #fff;
+  z-index:4;
+  text-align:center;
 }
+#light_on{
+  font-family:neon_;
+  color:#e817c5;
+  text-shadow: 0 0 2px #e817c5;
+  z-index:4;
+  text-align: center;
+  margin-top: 50px;
+  display:none;
+}
+
+#cerise{
+  display:none;
+  width:100px;
+  position:absolute;
+}
+
+#card_md:hover #light_off{
+  display:block;
+}
+#card_md:hover #cerise{
+  display:inline;
+  float: left;
+}
+
+#card_md:hover #light_on{
+  display:none;
+}
+
+#ligne{
+  display: inline;
+}
+
+
 
 /* ################# */
 /* FIN CODE MAEL */
