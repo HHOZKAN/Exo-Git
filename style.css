@@ -137,6 +137,7 @@ p {
   background-color: black;
   border-color:white;
   z-index:1;
+  box-shadow: 0 3px 10px transparent;
   
 }
 #card_md:hover{
@@ -153,6 +154,8 @@ p {
   text-shadow: 0 0 2px #fff;
   color:white;
   z-index:4;
+  display:flex;
+  flex-direction: column;
 }
 
 #light_off{
@@ -175,23 +178,33 @@ p {
 #cerise{
   display:none;
   width:100px;
-  position:absolute;
 }
-
+#doigt{
+  display:none;
+  width:50px;
+}
 #card_md:hover #light_off{
-  display:block;
+  display:none;
 }
 #card_md:hover #cerise{
-  display:inline;
-  float: left;
+  display:flex;
+}
+#card_md:hover #doigt{
+  display:flex;
+  margin-left: 50px;
 }
 
 #card_md:hover #light_on{
-  display:none;
+  display:block;
 }
-
-#ligne{
-  display: inline;
+#card_md:hover #nom_md{
+  color:#e817c5;
+  text-shadow: 0 0 2px #e817c5;
+}
+#card_md:hover #ligne{
+  display: flex;
+  flex-direction: row;
+  margin-left:15px;
 }
 
 
