@@ -127,7 +127,20 @@ p {
 /* ################### */
 /* DEBUT CODE MAEL */
 /* ################### */
+#card_md{
+  border-radius: 3%;
+  border:solid;
+  border-color: aqua;
+  background-color: #464954;
+}
+#nom_md{
+  text-align:center;
+  font-family: Georgia;
+}
 
+#citation_md{
+  font-family: Helvetica;
+}
 /* ################# */
 /* FIN CODE MAEL */
 /* ################# */
