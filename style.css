@@ -196,7 +196,7 @@ p {
   box-shadow: 1px 1px 3px gray;
   border-radius: 5%;
   padding: 10px;
-  background: radial-gradient(gray, white)
+  background: radial-gradient(rgb(192, 192, 192), white)
 }
 /* ################# */
 /* FIN CODE MAXIME */
