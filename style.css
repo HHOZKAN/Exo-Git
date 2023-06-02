@@ -250,6 +250,16 @@ p {
 
 /* ################### */
 /* DEBUT CODE AHMED */
+#Ahmed {
+  border: 1px solid rgb(231, 5, 118);
+  box-shadow: 2px 1px 3px #888;
+  border-top: 10px solid rgb(80, 235, 33);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+  
+  
 /* ################### */
 
 /* ################# */
