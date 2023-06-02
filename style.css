@@ -141,11 +141,17 @@ p {
   
 }
 #card_md:hover{
-  box-shadow: 0 3px 10px #e817c5;
-  border-color: #e817c5;
+  box-shadow: 0 0 7px #e817c5, 
+  0 0 10px #e817c5,
+  0 0 42px #e817c5;
+  border-color: #e600e6;
   background-image: url("C:/Users/Mael/Documents/TP-Card/Exo-Git/assets/mur.jpg");
   color:#e817c5;
-
+  text-shadow: 0 0 7px #e817c5, 
+  0 0 10px #e817c5,
+  0 0 42px #e817c5,
+  0 0 77px #e817c5,
+  0 0 100px #e817c5;
 }
 #nom_md{
   text-align:center;
@@ -167,8 +173,6 @@ p {
 }
 #light_on{
   font-family:neon_;
-  color:#e817c5;
-  text-shadow: 0 0 2px #e817c5;
   z-index:4;
   text-align: center;
   margin-top: 50px;
@@ -201,7 +205,11 @@ p {
 }
 #card_md:hover #nom_md{
   color:#e817c5;
-  text-shadow: 0 0 2px #e817c5;
+  text-shadow: 0 0 7px #e817c5, 
+   0 0 10px #e817c5,
+   0 0 42px #e817c5,
+   0 0 77px #e817c5,
+   0 0 100px #e817c5;
 }
 #card_md:hover #ligne{
   display: flex;
