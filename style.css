@@ -104,6 +104,50 @@ p {
 /* DEBUT CODE VINCENT */
 /* ################### */
 
+.cardVF {
+  border-radius: 10px;
+  background-image: url(https://www.japanfm.fr/wp-content/uploads/2022/09/naruto-scaled.webp);
+  background-size: cover;
+  width: 350px;
+  min-height: 250px;
+  max-height: 250px;
+  margin: 20px;  
+  margin-top: 50px;
+}
+
+.cardVF:hover {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMLcFw1gi2qqbDfmrRTjPBHOMxIpRf1ffMVQ&usqp=CAU);
+}
+
+.textVF {
+  display: block;
+  min-height: 250px;
+}
+
+.cardVF:hover .textVF {
+  display: none;
+}
+
+.h2VF {
+  text-shadow: 0px 0px 2px black,0px 0px 4px black,0px 0px 6px black;
+  color: white;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+
+.jutsu {
+  color: white;
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+
+
 /* ################# */
 /* FIN CODE VINCENT */
 /* ################# */
@@ -224,8 +268,13 @@ p {
 
 /* ################### */
 /* DEBUT CODE MUSA */
-/* ################### */
-
-/* ################# */
+#musa{
+  border: 5px double rgb(56, 40, 122);
+  border-radius: 10px;
+  box-shadow: 5px  5px 10px black;
+  padding: 10px;
+  text-align: center;
+  color: rgb(53, 37, 174);
+}
 /* FIN CODE MUSA */
 /* ################# */
