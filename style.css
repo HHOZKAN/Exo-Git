@@ -127,20 +127,35 @@ p {
 /* ################### */
 /* DEBUT CODE MAEL */
 /* ################### */
+@font-face{
+  font-family:neon_;
+  src:url("C:/Users/Mael/Documents/TP-Card/Exo-Git/assets/font/NEON.ttf");
+}
 #card_md{
   border-radius: 3%;
   border:solid;
-  border-color: aqua;
   background-color: #464954;
+  border-color:white;
+  
+}
+#card_md:hover{
+  box-shadow: 0 3px 10px orange;
+  border-color: #e8aa1a;
 }
 #nom_md{
   text-align:center;
-  font-family: Georgia;
+  font-size:30px;
+  font-family:neon_;
+  text-shadow: 0 0 2px #fff;
+  color:white;
 }
 
 #citation_md{
-  font-family: Helvetica;
+  font-family:neon_;
+  color:white;
+  text-shadow: 0 0 2px #fff;
 }
+
 /* ################# */
 /* FIN CODE MAEL */
 /* ################# */
