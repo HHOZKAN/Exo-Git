@@ -160,6 +160,7 @@ p {
   box-shadow: 1px 1px 3px #888;
   padding: 15px;
 }
+
 .cardhs {
   width: 350px;
   min-height: 250px;
@@ -170,13 +171,16 @@ p {
   transition: background-image 0.3s ease; /* Transition en douceur lors du changement d'image */
   text-shadow: 1px 1px 2px #ffffff;
 }
+
 .cardhs:hover {
   background-image: url("assets/yuumi2.jfif"); /* Nouvelle image de fond au survol */ 
 }
+
 #link {
   text-decoration: none;
   color: black;
 }
+
 /* ################# */
 /* FIN CODE HICHAM */
 /* ################# */
@@ -224,10 +228,12 @@ p {
 /* ################### */
 /* DEBUT CODE MAEL */
 /* ################### */
+
 @font-face{
   font-family:neon_;
-  src:url("C:/Users/Mael/Documents/TP-Card/Exo-Git/assets/font/NEON.ttf");
+  src:url("assets/font/NEON.ttf");
 }
+
 #card_md{
   border-radius: 3%;
   border:solid;
@@ -237,12 +243,13 @@ p {
   box-shadow: 0 3px 10px transparent;
   
 }
+
 #card_md:hover{
   box-shadow: 0 0 7px #e817c5, 
   0 0 10px #e817c5,
   0 0 42px #e817c5;
   border-color: #e600e6;
-  background-image: url("C:/Users/Mael/Documents/TP-Card/Exo-Git/assets/mur.jpg");
+  background-image: url("assets/mur.jpg");
   color:#e817c5;
   text-shadow: 0 0 7px #e817c5, 
   0 0 10px #e817c5,
@@ -250,6 +257,7 @@ p {
   0 0 77px #e817c5,
   0 0 100px #e817c5;
 }
+
 #nom_md{
   text-align:center;
   font-size:30px;
@@ -268,6 +276,7 @@ p {
   z-index:4;
   text-align:center;
 }
+
 #light_on{
   font-family:neon_;
   z-index:4;
@@ -280,26 +289,33 @@ p {
   display:none;
   width:100px;
 }
+
 #doigt{
   display:none;
   width:50px;
 }
+
 #card_md:hover #light_off{
   display:none;
 }
+
 #card_md:hover #cerise{
   display:flex;
 }
+
 #card_md:hover #doigt{
   display:flex;
   margin-left: 50px;
 }
+
 #light_off{
   margin-top:50px;
 }
+
 #card_md:hover #light_on{
   display:block;
 }
+
 #card_md:hover #nom_md{
   color:#e817c5;
   text-shadow: 0 0 7px #e817c5, 
@@ -308,6 +324,7 @@ p {
    0 0 77px #e817c5,
    0 0 100px #e817c5;
 }
+
 #card_md:hover #ligne{
   display: flex;
   flex-direction: row;
@@ -317,8 +334,6 @@ p {
 p{
   font-size: 30px;
 }
-
-
 
 /* ################# */
 /* FIN CODE MAEL */
@@ -336,9 +351,11 @@ p{
   box-shadow:0.5px 0.5px 3px grey;
   font-family:Helvetica, sans-serif;
 }
+
 #jerome h2{
   margin-left:10px;
 }
+
 #jerome p{
   margin-left:25px;
 }
@@ -347,11 +364,13 @@ p{
 /* ################### */
 /* DEBUT CODE OLGA */
 /* ################### */
+
 #olga {
   border: 10px solid rgb(183, 14, 177);
   box-shadow: 1px 1px 1px orchid;
   padding: 10px;
 }
+
 /* ################# */
 /* FIN CODE OLGA */
 /* ################# */
@@ -363,13 +382,6 @@ p{
 .SALAH img {
   object-fit:cover;
   transition: all 1s ease-out;
-}
-
-.card{
-  width: 350px;
-  min-height: 250px;
-  max-height: 250px;
-  margin: 40px;
 }
 
 .SALAH:hover img {
@@ -388,6 +400,7 @@ h2 {
   border-top: 10px solid rgb(177, 0, 0);
   padding: 10px;
 }
+
 /* ################# */
 /* FIN CODE SALAH */
 /* ################# */
@@ -441,6 +454,7 @@ h2 {
   background-size: cover;
   padding: 10px;
 }
+
 .avatar--sylvain img {
   object-fit: cover;
   border: 1px solid gray;
@@ -554,6 +568,7 @@ h2 {
 
 /* ################### */
 /* DEBUT CODE AHMED */
+/* ################### */
 #Ahmed {
   border: 1px solid rgb(231, 5, 118);
   box-shadow: 2px 1px 3px #888;
@@ -561,10 +576,6 @@ h2 {
   padding: 10px;
   border-radius: 20px;
 }
-
-  
-  
-/* ################### */
 
 /* ################# */
 /* FIN CODE AHMED */
