@@ -175,7 +175,23 @@ p {
 /* ################### */
 /* DEBUT CODE ANTOINE */
 /* ################### */
+#antoine {
+  border: 1px solid rgb(12, 11, 11);
+  box-shadow: 10px 10px 3px pink;
+  border-top: 10px solid pink;
+  padding: 10px;
+  background-image: url(assets/backgroung_isaac.jpg);
+  background-repeat: no-repeat;
+  background-size: 115% 100%;
+}
 
+.p_A {
+  color: whitesmoke;
+  text-shadow: 0 0 3px #ce52da, 0 0 5px #08bbf1;}
+
+.h2_A {
+  color: whitesmoke;
+  text-shadow: 0 0 3px #ce52da, 0 0 5px #08bbf1;}
 /* ################# */
 /* FIN CODE ANTOINE */
 /* ################# */
