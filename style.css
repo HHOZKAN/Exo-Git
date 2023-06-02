@@ -170,6 +170,15 @@ p {
 	src: url("assets/fonts/ASTONISHED.TTF") format("truetype");
 }
 
+@keyframes avatar-animation {
+  0% {
+    transform: translateX(0px) rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: translateX(200px) rotate(360deg) scale(1.2);
+  }
+}
+
 #sylvain h2 {
   font-family: 'Astonished', sans-serif;
   font-size: 40px;
@@ -189,7 +198,8 @@ p {
 
 #sylvain {
   border: 1px solid gray;
-  box-shadow: 1px 1px 3px #888;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888;
   background-image: url("assets/background--s.jpeg");
   background-size: cover;
   padding: 10px;
@@ -197,13 +207,11 @@ p {
 .avatar--sylvain img {
   object-fit: cover;
   border: 1px solid gray;
-  transition: transform 0.3s ease-in-out;
 }
 
 .avatar--sylvain:hover img {
-  transform: scale(1.2);
+  animation: avatar-animation 2000ms alternate backwards infinite;
 }
-
 
 /* ################# */
 /* FIN CODE SYLVAIN */
