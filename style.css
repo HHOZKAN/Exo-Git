@@ -564,10 +564,15 @@ h2 {
 #Hasan {  border: 1px solid rgb(0, 0, 0);
   box-shadow: 5px 5px 8px #420000;
   border-top: 15px solid rgb(0, 0, 0);
-  padding: 10px; }
+  padding: 10px;
+background-image: url(assets/images.jpg); 
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
   p {
     font-size:  15px;
   }
+
   
 /* ################# */
 /* FIN CODE HASAN */
